@@ -7,6 +7,12 @@ public class Rating {
 	private int rating;
 
 //Constructors
+
+	public Rating() {
+		
+	}
+	
+	
 	public Rating(String movieId, int rating) {
 		super();
 		this.movieId = movieId;
